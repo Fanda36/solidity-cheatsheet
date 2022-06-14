@@ -6,3 +6,18 @@ Solidity is the programing language to write smart contracts. The code is compil
 - each code run needs `gas`
 - **You don't need gas if you don't modify the state** - `view` and `pure` functions
   - you pay gas if you run `view` or `pure` functions inside transacion
+- optimalization - use `constant` and `immutable`
+
+## modifier
+```js
+modifier onlyOwner {
+    // require(msg.sender == owner);
+    if (msg.sender != i_owner) revert NotOwner();
+    _;
+}
+```
+
+## library
+- `using MyLibrary for uint256;`
+- extend uint256 by new methods from MyLibrary
+- first parameter is current value
