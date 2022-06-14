@@ -4,4 +4,5 @@ Solidity is the programing language to write smart contracts. The code is compil
 
 ## Gas
 - each code run needs `gas`
-- **You don't need gas if you don't modify the state** - view and pure functions
+- **You don't need gas if you don't modify the state** - `view` and `pure` functions
+  - you pay gas if you run `view` or `pure` functions inside transacion
