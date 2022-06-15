@@ -2,9 +2,22 @@
 
 Solidity is the programing language to write smart contracts. The code is compilated to bytecode and it's run in Ethereum Virtual Machine (EVM). A blockchain is a state and it's possible to modify a state by a smart contract.
 
+## Tutorials
+- https://www.youtube.com/watch?v=gyMwXuJrbJQ
+
 ## Cheatsheets
 - https://docs.soliditylang.org/en/v0.8.14/cheatsheet.html
 - https://solidity-by-example.org/
+
+# Tools and frameworks
+- Ethers.js (alternative Web3.js)
+  - js library to interact with blockchain (creating transactions etc.)
+- Ganache 
+  - personal Ethereum blockchain node writen in Node.js
+  - https://trufflesuite.com/ganache/
+- Hardhat
+  - development environment, includes custom blockchain node, ethers.js, testing etc.
+  - https://hardhat.org/
 
 ## Gas
 - each code run needs `gas`
