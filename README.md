@@ -12,6 +12,7 @@ Solidity is the programing language to write smart contracts. The code is compil
 # Tools and frameworks
 - Ethers.js (alternative Web3.js)
   - js library to interact with blockchain (creating transactions etc.)
+  - https://docs.ethers.io/
 - Ganache 
   - personal Ethereum blockchain node writen in Node.js
   - https://trufflesuite.com/ganache/
